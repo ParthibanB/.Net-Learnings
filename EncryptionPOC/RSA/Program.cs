@@ -31,18 +31,20 @@ namespace RSA
                publicKeyFile.WriteLine(publicKey);
                Console.WriteLine("Created Public key");
             }
+            Readimagefile();
         }
 
-        private void Readimagefile()
+        private static void Readimagefile()
         {
-            const string imageFolderPath = "C:\\Users\\Public\\Pictures\\Sample Pictures";
-            const string filename = "Penguins.jpeg";
+            const string imageFolderPath = "E:\\images";
+            const string filename = "Image1.jpg";
             var filelpath = Path.Combine(imageFolderPath, filename);
             if (Directory.Exists(imageFolderPath))
             {
                 Image imagefile = Image.FromFile(filelpath);
                 byte[] imagebyte = imagefile.ToByteArray(ImageFormat.Jpeg);
-                Console.WriteLine(imagebyte);
+                
+                Console.ReadLine();
             }
         }
     }
