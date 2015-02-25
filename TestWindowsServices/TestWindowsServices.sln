@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsService1", "WindowsService1\WindowsService1.csproj", "{AC43F82A-3478-4B86-BDB5-E55A35E99E7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Installer", "Installer\Installer.csproj", "{64B58D80-0B1F-415D-9C89-01C881EDF802}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC43F82A-3478-4B86-BDB5-E55A35E99E7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC43F82A-3478-4B86-BDB5-E55A35E99E7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC43F82A-3478-4B86-BDB5-E55A35E99E7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC43F82A-3478-4B86-BDB5-E55A35E99E7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64B58D80-0B1F-415D-9C89-01C881EDF802}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64B58D80-0B1F-415D-9C89-01C881EDF802}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64B58D80-0B1F-415D-9C89-01C881EDF802}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64B58D80-0B1F-415D-9C89-01C881EDF802}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
